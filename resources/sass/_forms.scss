@@ -1,0 +1,41 @@
+.form-sm, .form-group-sm {
+
+  margin-bottom: .2rem;
+
+  & {
+    label, legend {
+      margin-bottom: 0;
+      padding-bottom: 0 !important;
+      font-weight: 500;
+    }
+
+    .form-plain-label, .col-form-label {
+      @extend .col-form-label-sm;
+    }
+
+    .form-control {
+      @extend .form-control-sm;
+    }
+
+    .custom-control-label {
+      @extend .small;
+    }
+
+    .custom-control-label::before,
+    .custom-control-label::after {
+      //top: .8rem;
+      width: .75rem;
+      height: .75rem;
+    }
+  }
+
+}
+
+.form-control-xs {
+  padding: 0 .5rem !important;
+}
+
+input.form-control-xs,
+select.form-control-xs {
+  height: 26px !important;
+}

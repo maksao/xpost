@@ -1,0 +1,43 @@
+a {
+  font-weight: 400;
+  color: $link-color;
+  transition: color .16s linear;
+
+  &:hover {
+    color: rgba($link-color, .5);
+    text-decoration: none;
+  }
+}
+
+.font-weight-600 {
+  font-weight: 600;
+}
+
+.page-title {
+  //padding-left: 1rem;
+  //border-bottom: 2px $green solid;
+  font-size: 2rem;
+  padding-bottom: 1rem;
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+/*кнопка для прокрутки на начало страницы*/
+#toTop {
+  /*width:100px;*/
+  /*border:1px solid #ccc;*/
+  /*background:#f7f7f7;*/
+  /*text-align:center;*/
+  /*padding:5px;*/
+  position:fixed;
+  bottom:30px; /* отступ кнопки от нижнего края страницы*/
+  right:10px;
+  cursor:pointer;
+  display:none;
+  /*color:#333;*/
+  /*font-family:verdana;*/
+  /*font-size:11px;*/
+}
+

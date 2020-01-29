@@ -1,0 +1,16 @@
+.main, .sidebar {
+  position: fixed;
+  overflow-x: hidden;
+  overflow-y: auto;
+  top: 93px;
+  bottom: 0;
+  padding-top: 1rem;
+}
+
+.main {
+
+}
+
+.sidebar {
+  right: 0;
+}

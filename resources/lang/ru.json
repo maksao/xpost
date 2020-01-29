@@ -1,0 +1,16 @@
+{
+    "Login" : "Вход",
+    "E-Mail Address" : "Эл.почта",
+    "Password" : "Пароль",
+    "Confirm Password" : "Подтверждение пароля",
+    "Remember Me" : "Запомнить меня",
+    "Forgot Your Password?" : "Забылся пароль?",
+    "Reset Password" : "Сброс пароля",
+    "Send Password Reset Link" : "Отправить ссылку сброса парося",
+    "Please confirm your password before continuing." : "Пожалуйста подтвердите Ваш пароль перед продолжением.",
+
+    "Server Error" : "Ошибка системы",
+    "Forbidden" : "Доступ закрыт",
+    "Not Found" : "Ничего не найдено",
+    "This action is unauthorized." : "У Вас недостаточно прав."
+}

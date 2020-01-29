@@ -1,0 +1,1 @@
+<li class="list-group-item{{ isset($theme) ? ' list-group-item-'.$theme : '' }}">{{ $slot }}</li>

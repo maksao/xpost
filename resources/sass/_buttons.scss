@@ -1,0 +1,11 @@
+.btn-xs {
+  padding: 0 .5rem;
+  border: 0;
+}
+
+.back-url-btn {
+  color: $gray-400;
+  &:hover {
+    color: $gray-500;
+  }
+}

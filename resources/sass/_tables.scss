@@ -1,0 +1,24 @@
+th.thumbnail, td.thumbnail {
+  width: 70px !important;
+}
+
+// ячейка с чекбоксом и выпадающим списком (действия с отмеченными)
+th.actions-with-checked, td.actions-with-checked {
+  width: 40px !important;
+  padding-right: 0 !important;
+  vertical-align: middle;
+}
+
+// ячейка с полем позиции строки
+
+th.position, td.position {
+  width: 65px !important;
+}
+
+// ячейка с иконкой
+
+th.icon, td.icon {
+  width: 30px !important;
+  text-align: center;
+}
+

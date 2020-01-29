@@ -1,0 +1,12 @@
+.text-sm {
+  font-size: .7rem !important;
+}
+
+.text-light-gray {
+  color: $gray-500;
+}
+
+.text-help {
+  @extend .text-sm;
+  @extend .text-light-gray;
+}

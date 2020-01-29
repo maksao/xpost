@@ -1,0 +1,56 @@
+//.navbar .dropdown-menu {
+//  margin-top: -4px;
+//}
+
+.dropdown-item {
+
+  &:hover {
+    &>div {
+      color: lighten($primary, 35%) !important;
+    }
+    .fa, .fas, .far,
+    .text-danger {
+      color: $white !important;
+    }
+  }
+
+}
+
+.dropdown-item.danger {
+  color: $danger;
+  &:hover {
+    background: $danger;
+    color: #fff;
+    &>div {
+      color: lighten($danger, 30%) !important;
+    }
+  }
+
+}
+
+.dropdown-help {
+  display: block;
+  padding: 0;
+  padding-bottom: .3rem;
+  margin-bottom: 0;
+  font-size: .7rem;
+  color: #a2a2a2;
+  white-space: nowrap;
+}
+
+.dropdown-info {
+  display: block;
+  padding: .5rem 1.5rem;
+  margin-bottom: 0;
+  font-size: .7rem;
+  color: #636c72;
+  white-space: nowrap;
+}
+
+.dropdown-item > .title {
+  font-weight: 600;
+}
+
+.dropdown-header {
+  //border-bottom: 1px $border-color solid;
+}

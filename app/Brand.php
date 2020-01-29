@@ -6,6 +6,9 @@ use Illuminate\Database\Eloquent\Model;
 
 class Brand extends Model
 {
+    // Проверяем работу
+
+
     const OBJECT_CODE = 'brands';
 
 	public $timestamps = false;
